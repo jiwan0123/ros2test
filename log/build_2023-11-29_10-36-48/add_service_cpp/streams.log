@@ -1,0 +1,63 @@
+[1.146s] Invoking command in '/home/sis/ros2t_ws/build/add_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4
+[5.102s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[5.103s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[5.106s] [ 50%] Built target server
+[5.113s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[14.490s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.490s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:21:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kexmaple_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces[m[K’?
+[14.490s]    21 |         node->create_client<[01;31m[Kexmaple_interfaces[m[K::srv::AddTwoInts>("service");
+[14.490s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.490s]       |                             [32m[Kexample_interfaces[m[K
+[14.491s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:21:15:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[14.491s]    21 |         node->[01;31m[Kcreate_client<exmaple_interfaces::srv::AddTwoInts>[m[K("service");
+[14.491s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.491s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:21:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [8])[m[K’
+[14.491s]    21 |         [01;31m[Knode->create_client<exmaple_interfaces::srv::AddTwoInts>("service")[m[K;
+[14.491s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[14.491s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.491s]                  from [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:1[m[K:
+[14.492s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[14.492s]   252 |   [01;36m[Kcreate_client[m[K(
+[14.492s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[14.492s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.492s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:21:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.492s]    21 |         [01;31m[Knode->create_client<exmaple_interfaces::srv::AddTwoInts>("service")[m[K;
+[14.492s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[14.504s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.505s]                  from [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:1[m[K:
+[14.505s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:32:27:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[14.505s]    32 |         RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "service not available, waiting again...");
+[14.506s]       |                           [01;31m[K^[m[K
+[14.506s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.507s]                  from [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:1[m[K:
+[14.507s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:32:27:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[14.507s]    32 |         RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "service not available, waiting again...");
+[14.507s]       |                           [01;31m[K^[m[K
+[14.507s] [01m[K/home/sis/ros2t_ws/src/add_service_cpp/src/client.cpp:32:27:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[14.507s]    32 |         RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "service not available, waiting again...");
+[14.507s]       |                           [01;31m[K^[m[K
+[15.344s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[15.344s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[15.344s] gmake: *** [Makefile:146: all] Error 2
+[15.348s] Invoked command in '/home/sis/ros2t_ws/build/add_service_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4

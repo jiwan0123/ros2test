@@ -1,0 +1,22 @@
+[3.348s] Invoking command in '/home/sis/ros2t_ws/src/pubsub_py': PYTHONPATH=/home/sis/ros2t_ws/build/pubsub_py/prefix_override:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/sis/ros2t_ws/build/pubsub_py/build install --record /home/sis/ros2t_ws/build/pubsub_py/install.log --single-version-externally-managed
+[5.310s] running egg_info
+[5.321s] writing ../../build/pubsub_py/pubsub_py.egg-info/PKG-INFO
+[5.321s] writing dependency_links to ../../build/pubsub_py/pubsub_py.egg-info/dependency_links.txt
+[5.322s] writing entry points to ../../build/pubsub_py/pubsub_py.egg-info/entry_points.txt
+[5.322s] writing requirements to ../../build/pubsub_py/pubsub_py.egg-info/requires.txt
+[5.322s] writing top-level names to ../../build/pubsub_py/pubsub_py.egg-info/top_level.txt
+[5.345s] reading manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[5.356s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[5.356s] running build
+[5.356s] running build_py
+[5.357s] running install
+[5.357s] running install_lib
+[5.365s] running install_data
+[5.368s] running install_egg_info
+[5.407s] removing '/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.442s] Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info
+[5.456s] running install_scripts
+[5.623s] Installing pub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py
+[5.623s] Installing sub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py
+[5.623s] writing list of installed files to '/home/sis/ros2t_ws/build/pubsub_py/install.log'
+[5.864s] Invoked command in '/home/sis/ros2t_ws/src/pubsub_py' returned '0': PYTHONPATH=/home/sis/ros2t_ws/build/pubsub_py/prefix_override:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/sis/ros2t_ws/build/pubsub_py/build install --record /home/sis/ros2t_ws/build/pubsub_py/install.log --single-version-externally-managed

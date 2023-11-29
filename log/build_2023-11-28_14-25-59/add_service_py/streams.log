@@ -1,0 +1,41 @@
+[2.962s] Invoking command in '/home/sis/ros2t_ws/src/add_service_py': PYTHONPATH=/home/sis/ros2t_ws/build/add_service_py/prefix_override:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_service_py build --build-base /home/sis/ros2t_ws/build/add_service_py/build install --record /home/sis/ros2t_ws/build/add_service_py/install.log --single-version-externally-managed
+[3.651s] running egg_info
+[3.653s] creating ../../build/add_service_py/add_service_py.egg-info
+[3.653s] writing ../../build/add_service_py/add_service_py.egg-info/PKG-INFO
+[3.654s] writing dependency_links to ../../build/add_service_py/add_service_py.egg-info/dependency_links.txt
+[3.654s] writing entry points to ../../build/add_service_py/add_service_py.egg-info/entry_points.txt
+[3.654s] writing requirements to ../../build/add_service_py/add_service_py.egg-info/requires.txt
+[3.655s] writing top-level names to ../../build/add_service_py/add_service_py.egg-info/top_level.txt
+[3.655s] writing manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'
+[3.663s] reading manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'
+[3.665s] writing manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'
+[3.665s] running build
+[3.666s] running build_py
+[3.666s] creating /home/sis/ros2t_ws/build/add_service_py/build
+[3.666s] creating /home/sis/ros2t_ws/build/add_service_py/build/lib
+[3.666s] creating /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py
+[3.667s] copying add_service_py/client.py -> /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py
+[3.677s] copying add_service_py/server.py -> /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py
+[3.682s] copying add_service_py/__init__.py -> /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py
+[3.682s] running install
+[3.683s] running install_lib
+[3.685s] creating /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py
+[3.685s] copying /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py/client.py -> /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py
+[3.685s] copying /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py/server.py -> /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py
+[3.687s] copying /home/sis/ros2t_ws/build/add_service_py/build/lib/add_service_py/__init__.py -> /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py
+[3.687s] byte-compiling /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py/client.py to client.cpython-310.pyc
+[3.688s] byte-compiling /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py/server.py to server.cpython-310.pyc
+[3.689s] byte-compiling /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py/__init__.py to __init__.cpython-310.pyc
+[3.690s] running install_data
+[3.691s] creating /home/sis/ros2t_ws/install/add_service_py/share/ament_index
+[3.691s] creating /home/sis/ros2t_ws/install/add_service_py/share/ament_index/resource_index
+[3.692s] creating /home/sis/ros2t_ws/install/add_service_py/share/ament_index/resource_index/packages
+[3.692s] copying resource/add_service_py -> /home/sis/ros2t_ws/install/add_service_py/share/ament_index/resource_index/packages
+[3.692s] copying package.xml -> /home/sis/ros2t_ws/install/add_service_py/share/add_service_py
+[3.692s] running install_egg_info
+[3.696s] Copying ../../build/add_service_py/add_service_py.egg-info to /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py-0.0.0-py3.10.egg-info
+[3.698s] running install_scripts
+[3.756s] Installing client script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py
+[3.757s] Installing server script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py
+[3.759s] writing list of installed files to '/home/sis/ros2t_ws/build/add_service_py/install.log'
+[3.867s] Invoked command in '/home/sis/ros2t_ws/src/add_service_py' returned '0': PYTHONPATH=/home/sis/ros2t_ws/build/add_service_py/prefix_override:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_service_py build --build-base /home/sis/ros2t_ws/build/add_service_py/build install --record /home/sis/ros2t_ws/build/add_service_py/install.log --single-version-externally-managed

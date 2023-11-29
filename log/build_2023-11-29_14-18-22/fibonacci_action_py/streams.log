@@ -1,0 +1,25 @@
+[5.999s] Invoking command in '/home/sis/ros2t_ws/src/fibonacci_action_py': PYTHONPATH=/home/sis/ros2t_ws/build/fibonacci_action_py/prefix_override:/home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fibonacci_action_py build --build-base /home/sis/ros2t_ws/build/fibonacci_action_py/build install --record /home/sis/ros2t_ws/build/fibonacci_action_py/install.log --single-version-externally-managed
+[7.315s] running egg_info
+[7.324s] writing ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/PKG-INFO
+[7.325s] writing dependency_links to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/dependency_links.txt
+[7.326s] writing entry points to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/entry_points.txt
+[7.341s] writing requirements to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/requires.txt
+[7.342s] writing top-level names to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/top_level.txt
+[7.351s] reading manifest file '../../build/fibonacci_action_py/fibonacci_action_py.egg-info/SOURCES.txt'
+[7.352s] writing manifest file '../../build/fibonacci_action_py/fibonacci_action_py.egg-info/SOURCES.txt'
+[7.353s] running build
+[7.355s] running build_py
+[7.359s] copying fibonacci_action_py/server.py -> /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py
+[7.360s] running install
+[7.360s] running install_lib
+[7.367s] copying /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py/server.py -> /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py
+[7.368s] byte-compiling /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py/server.py to server.cpython-310.pyc
+[7.368s] running install_data
+[7.368s] running install_egg_info
+[7.381s] removing '/home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py-0.0.0-py3.10.egg-info' (and everything under it)
+[7.386s] Copying ../../build/fibonacci_action_py/fibonacci_action_py.egg-info to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py-0.0.0-py3.10.egg-info
+[7.401s] running install_scripts
+[7.500s] Installing client script to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/fibonacci_action_py
+[7.501s] Installing server script to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/fibonacci_action_py
+[7.503s] writing list of installed files to '/home/sis/ros2t_ws/build/fibonacci_action_py/install.log'
+[7.667s] Invoked command in '/home/sis/ros2t_ws/src/fibonacci_action_py' returned '0': PYTHONPATH=/home/sis/ros2t_ws/build/fibonacci_action_py/prefix_override:/home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fibonacci_action_py build --build-base /home/sis/ros2t_ws/build/fibonacci_action_py/build install --record /home/sis/ros2t_ws/build/fibonacci_action_py/install.log --single-version-externally-managed

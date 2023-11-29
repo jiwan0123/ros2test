@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (add_service_cpp) JobQueued: {'identifier': 'add_service_cpp', 'dependencies': OrderedDict()}
+[0.000683] (add_service_py) JobQueued: {'identifier': 'add_service_py', 'dependencies': OrderedDict()}
+[0.000838] (pubsub_cpp) JobQueued: {'identifier': 'pubsub_cpp', 'dependencies': OrderedDict()}
+[0.000899] (pubsub_py) JobQueued: {'identifier': 'pubsub_py', 'dependencies': OrderedDict()}
+[0.000952] (add_service_cpp) JobStarted: {'identifier': 'add_service_cpp'}
+[0.099824] (-) TimerEvent: {}
+[0.200913] (-) TimerEvent: {}
+[0.232983] (add_service_py) JobStarted: {'identifier': 'add_service_py'}
+[0.301525] (-) TimerEvent: {}
+[0.403104] (-) TimerEvent: {}
+[0.504404] (-) TimerEvent: {}
+[0.539273] (pubsub_cpp) JobStarted: {'identifier': 'pubsub_cpp'}
+[0.604463] (-) TimerEvent: {}
+[0.705403] (-) TimerEvent: {}
+[0.807725] (-) TimerEvent: {}
+[0.836367] (pubsub_py) JobStarted: {'identifier': 'pubsub_py'}
+[0.908492] (-) TimerEvent: {}
+[1.009585] (-) TimerEvent: {}
+[1.112493] (-) TimerEvent: {}
+[1.121959] (add_service_cpp) JobProgress: {'identifier': 'add_service_cpp', 'progress': 'cmake'}
+[1.124756] (add_service_cpp) JobProgress: {'identifier': 'add_service_cpp', 'progress': 'build'}
+[1.125689] (add_service_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sis/ros2t_ws/build/add_service_cpp', '--', '-j4', '-l4'], 'cwd': '/home/sis/ros2t_ws/build/add_service_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sis'), ('OLDPWD', '/home/sis/ros2t_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '845'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sis/ros2t_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6UPBF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sis/ros2t_ws/build/add_service_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble')]), 'shell': False}
+[1.221189] (-) TimerEvent: {}
+[1.322486] (-) TimerEvent: {}
+[1.424109] (-) TimerEvent: {}
+[1.526904] (-) TimerEvent: {}
+[1.629988] (-) TimerEvent: {}
+[1.730473] (-) TimerEvent: {}
+[1.830990] (-) TimerEvent: {}
+[1.932072] (-) TimerEvent: {}
+[2.035400] (-) TimerEvent: {}
+[2.138661] (-) TimerEvent: {}
+[2.243250] (-) TimerEvent: {}
+[2.343762] (-) TimerEvent: {}
+[2.444274] (-) TimerEvent: {}
+[2.545239] (-) TimerEvent: {}
+[2.586754] (pubsub_cpp) JobProgress: {'identifier': 'pubsub_cpp', 'progress': 'cmake'}
+[2.591398] (pubsub_cpp) JobProgress: {'identifier': 'pubsub_cpp', 'progress': 'build'}
+[2.594639] (pubsub_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sis/ros2t_ws/build/pubsub_cpp', '--', '-j4', '-l4'], 'cwd': '/home/sis/ros2t_ws/build/pubsub_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sis'), ('OLDPWD', '/home/sis/ros2t_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '845'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sis/ros2t_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6UPBF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sis/ros2t_ws/build/pubsub_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble')]), 'shell': False}
+[2.645637] (-) TimerEvent: {}
+[2.746466] (-) TimerEvent: {}
+[2.847645] (-) TimerEvent: {}
+[2.959986] (-) TimerEvent: {}
+[3.062375] (-) TimerEvent: {}
+[3.164623] (-) TimerEvent: {}
+[3.265742] (-) TimerEvent: {}
+[3.368899] (-) TimerEvent: {}
+[3.472840] (-) TimerEvent: {}
+[3.577308] (-) TimerEvent: {}
+[3.679042] (-) TimerEvent: {}
+[3.782202] (-) TimerEvent: {}
+[3.887317] (-) TimerEvent: {}
+[3.990126] (-) TimerEvent: {}
+[4.093230] (-) TimerEvent: {}
+[4.196150] (-) TimerEvent: {}
+[4.297070] (-) TimerEvent: {}
+[4.397929] (-) TimerEvent: {}
+[4.409089] (add_service_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[4.409533] (add_service_cpp) StdoutLine: {'line': b'[ 50%] Built target server\n'}
+[4.409729] (add_service_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[4.410155] (pubsub_cpp) StdoutLine: {'line': b'[ 50%] Built target pub\n'}
+[4.410412] (pubsub_cpp) StdoutLine: {'line': b'[100%] Built target sub\n'}
+[4.467833] (pubsub_cpp) CommandEnded: {'returncode': 0}
+[4.498510] (-) TimerEvent: {}
+[4.601066] (-) TimerEvent: {}
+[4.708602] (-) TimerEvent: {}
+[4.809842] (-) TimerEvent: {}
+[4.837861] (pubsub_cpp) JobProgress: {'identifier': 'pubsub_cpp', 'progress': 'install'}
+[4.903346] (pubsub_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sis/ros2t_ws/build/pubsub_cpp'], 'cwd': '/home/sis/ros2t_ws/build/pubsub_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sis'), ('OLDPWD', '/home/sis/ros2t_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '845'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sis/ros2t_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6UPBF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sis/ros2t_ws/build/pubsub_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble')]), 'shell': False}
+[4.909963] (-) TimerEvent: {}
+[4.957264] (pubsub_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.959679] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/lib/pubsub_cpp/pub\n'}
+[4.961994] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/lib/pubsub_cpp/sub\n'}
+[4.962567] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/package_run_dependencies/pubsub_cpp\n'}
+[4.963301] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/parent_prefix_path/pubsub_cpp\n'}
+[4.964593] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/ament_prefix_path.sh\n'}
+[4.975111] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/ament_prefix_path.dsv\n'}
+[4.978360] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/path.sh\n'}
+[4.979423] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/path.dsv\n'}
+[4.979846] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.bash\n'}
+[4.980297] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.sh\n'}
+[4.981129] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.zsh\n'}
+[4.982019] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.dsv\n'}
+[4.982975] (pubsub_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/package.dsv\n'}
+[4.987372] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/packages/pubsub_cpp\n'}
+[4.987883] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/cmake/pubsub_cppConfig.cmake\n'}
+[4.988111] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/cmake/pubsub_cppConfig-version.cmake\n'}
+[4.988293] (pubsub_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/package.xml\n'}
+[4.998666] (pubsub_cpp) CommandEnded: {'returncode': 0}
+[5.010252] (-) TimerEvent: {}
+[5.112924] (-) TimerEvent: {}
+[5.223188] (-) TimerEvent: {}
+[5.332652] (-) TimerEvent: {}
+[5.461780] (-) TimerEvent: {}
+[5.569339] (-) TimerEvent: {}
+[5.671286] (-) TimerEvent: {}
+[5.772904] (-) TimerEvent: {}
+[5.881084] (-) TimerEvent: {}
+[5.986032] (-) TimerEvent: {}
+[6.086789] (-) TimerEvent: {}
+[6.195786] (-) TimerEvent: {}
+[6.296557] (-) TimerEvent: {}
+[6.309094] (pubsub_cpp) JobEnded: {'identifier': 'pubsub_cpp', 'rc': 0}
+[6.396693] (-) TimerEvent: {}
+[6.499999] (-) TimerEvent: {}
+[6.601144] (-) TimerEvent: {}
+[6.650694] (add_service_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/add_service_py', 'build', '--build-base', '/home/sis/ros2t_ws/build/add_service_py/build', 'install', '--record', '/home/sis/ros2t_ws/build/add_service_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/sis/ros2t_ws/src/add_service_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sis', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sis', 'OLDPWD': '/home/sis/ros2t_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '845', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sis/ros2t_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sis', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6UPBF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sis/ros2t_ws/build/add_service_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sis/ros2t_ws/build/add_service_py/prefix_override:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sis/ros2t_ws/install/pubsub_cpp'}, 'shell': False}
+[6.701227] (-) TimerEvent: {}
+[6.801885] (-) TimerEvent: {}
+[6.906312] (-) TimerEvent: {}
+[7.007418] (-) TimerEvent: {}
+[7.109615] (-) TimerEvent: {}
+[7.212587] (-) TimerEvent: {}
+[7.315856] (-) TimerEvent: {}
+[7.419917] (-) TimerEvent: {}
+[7.525382] (-) TimerEvent: {}
+[7.631212] (-) TimerEvent: {}
+[7.735876] (-) TimerEvent: {}
+[7.755835] (pubsub_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub_py', 'build', '--build-base', '/home/sis/ros2t_ws/build/pubsub_py/build', 'install', '--record', '/home/sis/ros2t_ws/build/pubsub_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/sis/ros2t_ws/src/pubsub_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sis', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sis', 'OLDPWD': '/home/sis/ros2t_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '845', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sis/ros2t_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sis', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6UPBF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sis/ros2t_ws/build/pubsub_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sis/ros2t_ws/build/pubsub_py/prefix_override:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sis/ros2t_ws/install/pubsub_cpp'}, 'shell': False}
+[7.836446] (-) TimerEvent: {}
+[7.938487] (-) TimerEvent: {}
+[8.040385] (-) TimerEvent: {}
+[8.145068] (-) TimerEvent: {}
+[8.254562] (-) TimerEvent: {}
+[8.359357] (-) TimerEvent: {}
+[8.463978] (-) TimerEvent: {}
+[8.567508] (-) TimerEvent: {}
+[8.672179] (-) TimerEvent: {}
+[8.775983] (-) TimerEvent: {}
+[8.879769] (-) TimerEvent: {}
+[8.982924] (-) TimerEvent: {}
+[9.070870] (add_service_py) StdoutLine: {'line': b'running egg_info\n'}
+[9.074128] (add_service_py) StdoutLine: {'line': b'writing ../../build/add_service_py/add_service_py.egg-info/PKG-INFO\n'}
+[9.076275] (add_service_py) StdoutLine: {'line': b'writing dependency_links to ../../build/add_service_py/add_service_py.egg-info/dependency_links.txt\n'}
+[9.078523] (add_service_py) StdoutLine: {'line': b'writing entry points to ../../build/add_service_py/add_service_py.egg-info/entry_points.txt\n'}
+[9.080546] (add_service_py) StdoutLine: {'line': b'writing requirements to ../../build/add_service_py/add_service_py.egg-info/requires.txt\n'}
+[9.083084] (-) TimerEvent: {}
+[9.084837] (add_service_py) StdoutLine: {'line': b'writing top-level names to ../../build/add_service_py/add_service_py.egg-info/top_level.txt\n'}
+[9.106842] (add_service_py) StdoutLine: {'line': b"reading manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'\n"}
+[9.124611] (add_service_py) StdoutLine: {'line': b"writing manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'\n"}
+[9.131467] (add_service_py) StdoutLine: {'line': b'running build\n'}
+[9.133792] (add_service_py) StdoutLine: {'line': b'running build_py\n'}
+[9.136147] (add_service_py) StdoutLine: {'line': b'running install\n'}
+[9.138549] (add_service_py) StdoutLine: {'line': b'running install_lib\n'}
+[9.143154] (add_service_py) StdoutLine: {'line': b'running install_data\n'}
+[9.149601] (add_service_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.170774] (add_service_py) StdoutLine: {'line': b"removing '/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.174200] (add_service_py) StdoutLine: {'line': b'Copying ../../build/add_service_py/add_service_py.egg-info to /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py-0.0.0-py3.10.egg-info\n'}
+[9.179872] (add_service_py) StdoutLine: {'line': b'running install_scripts\n'}
+[9.184683] (-) TimerEvent: {}
+[9.287235] (-) TimerEvent: {}
+[9.346559] (add_service_py) StdoutLine: {'line': b'Installing client script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py\n'}
+[9.349035] (add_service_py) StdoutLine: {'line': b'Installing server script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py\n'}
+[9.349360] (add_service_py) StdoutLine: {'line': b"writing list of installed files to '/home/sis/ros2t_ws/build/add_service_py/install.log'\n"}
+[9.387276] (-) TimerEvent: {}
+[9.487812] (-) TimerEvent: {}
+[9.504900] (add_service_py) CommandEnded: {'returncode': 0}
+[9.543869] (pubsub_py) StdoutLine: {'line': b'running egg_info\n'}
+[9.557403] (pubsub_py) StdoutLine: {'line': b'writing ../../build/pubsub_py/pubsub_py.egg-info/PKG-INFO\n'}
+[9.559385] (pubsub_py) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub_py/pubsub_py.egg-info/dependency_links.txt\n'}
+[9.559898] (pubsub_py) StdoutLine: {'line': b'writing entry points to ../../build/pubsub_py/pubsub_py.egg-info/entry_points.txt\n'}
+[9.562820] (pubsub_py) StdoutLine: {'line': b'writing requirements to ../../build/pubsub_py/pubsub_py.egg-info/requires.txt\n'}
+[9.567611] (pubsub_py) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub_py/pubsub_py.egg-info/top_level.txt\n'}
+[9.585337] (pubsub_py) StdoutLine: {'line': b"reading manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'\n"}
+[9.588981] (-) TimerEvent: {}
+[9.592254] (pubsub_py) StdoutLine: {'line': b"writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'\n"}
+[9.594865] (pubsub_py) StdoutLine: {'line': b'running build\n'}
+[9.604083] (pubsub_py) StdoutLine: {'line': b'running build_py\n'}
+[9.610214] (pubsub_py) StdoutLine: {'line': b'running install\n'}
+[9.611734] (pubsub_py) StdoutLine: {'line': b'running install_lib\n'}
+[9.620736] (pubsub_py) StdoutLine: {'line': b'running install_data\n'}
+[9.624893] (pubsub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.643324] (pubsub_py) StdoutLine: {'line': b"removing '/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.656074] (pubsub_py) StdoutLine: {'line': b'Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info\n'}
+[9.659015] (pubsub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[9.689115] (-) TimerEvent: {}
+[9.790894] (-) TimerEvent: {}
+[9.860975] (pubsub_py) StdoutLine: {'line': b'Installing pub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py\n'}
+[9.865872] (pubsub_py) StdoutLine: {'line': b'Installing sub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py\n'}
+[9.876223] (pubsub_py) StdoutLine: {'line': b"writing list of installed files to '/home/sis/ros2t_ws/build/pubsub_py/install.log'\n"}
+[9.891840] (-) TimerEvent: {}
+[9.995869] (-) TimerEvent: {}
+[10.098161] (-) TimerEvent: {}
+[10.202837] (-) TimerEvent: {}
+[10.248265] (add_service_py) JobEnded: {'identifier': 'add_service_py', 'rc': 0}
+[10.254731] (pubsub_py) CommandEnded: {'returncode': 0}
+[10.303444] (-) TimerEvent: {}
+[10.404868] (-) TimerEvent: {}
+[10.508141] (-) TimerEvent: {}
+[10.610154] (-) TimerEvent: {}
+[10.716444] (-) TimerEvent: {}
+[10.738280] (pubsub_py) JobEnded: {'identifier': 'pubsub_py', 'rc': 0}
+[10.816506] (-) TimerEvent: {}
+[10.917242] (-) TimerEvent: {}
+[11.019115] (-) TimerEvent: {}
+[11.120445] (-) TimerEvent: {}
+[11.222091] (-) TimerEvent: {}
+[11.324425] (-) TimerEvent: {}
+[11.427371] (-) TimerEvent: {}
+[11.528531] (-) TimerEvent: {}
+[11.630029] (-) TimerEvent: {}
+[11.730922] (-) TimerEvent: {}
+[11.832230] (-) TimerEvent: {}
+[11.934228] (-) TimerEvent: {}
+[12.035633] (-) TimerEvent: {}
+[12.137603] (-) TimerEvent: {}
+[12.238984] (-) TimerEvent: {}
+[12.341767] (-) TimerEvent: {}
+[12.444118] (-) TimerEvent: {}
+[12.545879] (-) TimerEvent: {}
+[12.647959] (-) TimerEvent: {}
+[12.748766] (-) TimerEvent: {}
+[12.850628] (-) TimerEvent: {}
+[12.953136] (-) TimerEvent: {}
+[13.055871] (-) TimerEvent: {}
+[13.158009] (-) TimerEvent: {}
+[13.259431] (-) TimerEvent: {}
+[13.363367] (-) TimerEvent: {}
+[13.465334] (-) TimerEvent: {}
+[13.568094] (-) TimerEvent: {}
+[13.670968] (-) TimerEvent: {}
+[13.774524] (-) TimerEvent: {}
+[13.875395] (-) TimerEvent: {}
+[13.976547] (-) TimerEvent: {}
+[14.077020] (-) TimerEvent: {}
+[14.177392] (-) TimerEvent: {}
+[14.277813] (-) TimerEvent: {}
+[14.378231] (-) TimerEvent: {}
+[14.478744] (-) TimerEvent: {}
+[14.579213] (-) TimerEvent: {}
+[14.679774] (-) TimerEvent: {}
+[14.780202] (-) TimerEvent: {}
+[14.880660] (-) TimerEvent: {}
+[14.981105] (-) TimerEvent: {}
+[15.081505] (-) TimerEvent: {}
+[15.181902] (-) TimerEvent: {}
+[15.282310] (-) TimerEvent: {}
+[15.382706] (-) TimerEvent: {}
+[15.483135] (-) TimerEvent: {}
+[15.583651] (-) TimerEvent: {}
+[15.684186] (-) TimerEvent: {}
+[15.784633] (-) TimerEvent: {}
+[15.885039] (-) TimerEvent: {}
+[15.985478] (-) TimerEvent: {}
+[16.085882] (-) TimerEvent: {}
+[16.186338] (-) TimerEvent: {}
+[16.286761] (-) TimerEvent: {}
+[16.387165] (-) TimerEvent: {}
+[16.477403] (add_service_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[16.487295] (-) TimerEvent: {}
+[16.588122] (-) TimerEvent: {}
+[16.689074] (-) TimerEvent: {}
+[16.790578] (-) TimerEvent: {}
+[16.891781] (-) TimerEvent: {}
+[16.993521] (-) TimerEvent: {}
+[17.071044] (add_service_cpp) StdoutLine: {'line': b'[100%] Built target client\n'}
+[17.087514] (add_service_cpp) CommandEnded: {'returncode': 0}
+[17.093530] (-) TimerEvent: {}
+[17.195280] (-) TimerEvent: {}
+[17.214298] (add_service_cpp) JobProgress: {'identifier': 'add_service_cpp', 'progress': 'install'}
+[17.215009] (add_service_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sis/ros2t_ws/build/add_service_cpp'], 'cwd': '/home/sis/ros2t_ws/build/add_service_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sis'), ('OLDPWD', '/home/sis/ros2t_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '845'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sis/ros2t_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/850c9ed0_c253_46db_bff2_5b4e0430bcff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6UPBF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sis/ros2t_ws/build/add_service_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sis/ros2t_ws/build/add_service_py:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble')]), 'shell': False}
+[17.273954] (add_service_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.277160] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server\n'}
+[17.282413] (add_service_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server" to ""\n'}
+[17.283070] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client\n'}
+[17.285592] (add_service_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client" to ""\n'}
+[17.286410] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/package_run_dependencies/add_service_cpp\n'}
+[17.287248] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/parent_prefix_path/add_service_cpp\n'}
+[17.288017] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.sh\n'}
+[17.288639] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.dsv\n'}
+[17.289321] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.sh\n'}
+[17.290041] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.dsv\n'}
+[17.290744] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.bash\n'}
+[17.291599] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.sh\n'}
+[17.292424] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.zsh\n'}
+[17.293154] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.dsv\n'}
+[17.293970] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.dsv\n'}
+[17.295366] (-) TimerEvent: {}
+[17.298481] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/packages/add_service_cpp\n'}
+[17.301630] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig.cmake\n'}
+[17.305094] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig-version.cmake\n'}
+[17.308303] (add_service_cpp) StdoutLine: {'line': b'-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.xml\n'}
+[17.319059] (add_service_cpp) CommandEnded: {'returncode': 0}
+[17.395611] (-) TimerEvent: {}
+[17.499531] (-) TimerEvent: {}
+[17.602609] (-) TimerEvent: {}
+[17.703767] (-) TimerEvent: {}
+[17.807826] (-) TimerEvent: {}
+[17.908890] (-) TimerEvent: {}
+[18.009834] (-) TimerEvent: {}
+[18.037123] (add_service_cpp) JobEnded: {'identifier': 'add_service_cpp', 'rc': 0}
+[18.039211] (-) EventReactorShutdown: {}

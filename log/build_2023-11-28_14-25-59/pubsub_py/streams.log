@@ -1,0 +1,41 @@
+[2.631s] Invoking command in '/home/sis/ros2t_ws/src/pubsub_py': PYTHONPATH=/home/sis/ros2t_ws/build/pubsub_py/prefix_override:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/sis/ros2t_ws/build/pubsub_py/build install --record /home/sis/ros2t_ws/build/pubsub_py/install.log --single-version-externally-managed
+[3.334s] running egg_info
+[3.334s] creating ../../build/pubsub_py/pubsub_py.egg-info
+[3.335s] writing ../../build/pubsub_py/pubsub_py.egg-info/PKG-INFO
+[3.335s] writing dependency_links to ../../build/pubsub_py/pubsub_py.egg-info/dependency_links.txt
+[3.335s] writing entry points to ../../build/pubsub_py/pubsub_py.egg-info/entry_points.txt
+[3.335s] writing requirements to ../../build/pubsub_py/pubsub_py.egg-info/requires.txt
+[3.336s] writing top-level names to ../../build/pubsub_py/pubsub_py.egg-info/top_level.txt
+[3.336s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[3.342s] reading manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[3.346s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[3.346s] running build
+[3.346s] running build_py
+[3.347s] creating /home/sis/ros2t_ws/build/pubsub_py/build
+[3.347s] creating /home/sis/ros2t_ws/build/pubsub_py/build/lib
+[3.347s] creating /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py
+[3.347s] copying pubsub_py/pub.py -> /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py
+[3.348s] copying pubsub_py/sub.py -> /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py
+[3.348s] copying pubsub_py/__init__.py -> /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py
+[3.348s] running install
+[3.348s] running install_lib
+[3.350s] creating /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[3.350s] copying /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py/pub.py -> /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[3.351s] copying /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py/sub.py -> /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[3.351s] copying /home/sis/ros2t_ws/build/pubsub_py/build/lib/pubsub_py/__init__.py -> /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[3.352s] byte-compiling /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/pub.py to pub.cpython-310.pyc
+[3.353s] byte-compiling /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sub.py to sub.cpython-310.pyc
+[3.354s] byte-compiling /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/__init__.py to __init__.cpython-310.pyc
+[3.354s] running install_data
+[3.356s] creating /home/sis/ros2t_ws/install/pubsub_py/share/ament_index
+[3.357s] creating /home/sis/ros2t_ws/install/pubsub_py/share/ament_index/resource_index
+[3.357s] creating /home/sis/ros2t_ws/install/pubsub_py/share/ament_index/resource_index/packages
+[3.357s] copying resource/pubsub_py -> /home/sis/ros2t_ws/install/pubsub_py/share/ament_index/resource_index/packages
+[3.357s] copying package.xml -> /home/sis/ros2t_ws/install/pubsub_py/share/pubsub_py
+[3.358s] running install_egg_info
+[3.361s] Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info
+[3.363s] running install_scripts
+[3.421s] Installing pub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py
+[3.422s] Installing sub script to /home/sis/ros2t_ws/install/pubsub_py/lib/pubsub_py
+[3.424s] writing list of installed files to '/home/sis/ros2t_ws/build/pubsub_py/install.log'
+[3.607s] Invoked command in '/home/sis/ros2t_ws/src/pubsub_py' returned '0': PYTHONPATH=/home/sis/ros2t_ws/build/pubsub_py/prefix_override:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/sis/ros2t_ws/build/pubsub_py/build install --record /home/sis/ros2t_ws/build/pubsub_py/install.log --single-version-externally-managed

@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.002984] (-) JobUnselected: {'identifier': 'add_service_cpp'}
+[0.003288] (-) JobUnselected: {'identifier': 'add_service_py'}
+[0.003554] (-) JobUnselected: {'identifier': 'pubsub_cpp'}
+[0.008005] (-) JobUnselected: {'identifier': 'pubsub_py'}
+[0.008114] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.008180] (fibonacci_action_py) JobQueued: {'identifier': 'fibonacci_action_py', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/sis/ros2t_ws/install/tutorial_interfaces')])}
+[0.008250] (fibonacci_action_py) JobStarted: {'identifier': 'fibonacci_action_py'}
+[0.100697] (-) TimerEvent: {}
+[0.203217] (-) TimerEvent: {}
+[0.304038] (-) TimerEvent: {}
+[0.404658] (-) TimerEvent: {}
+[0.505215] (-) TimerEvent: {}
+[0.605650] (-) TimerEvent: {}
+[0.706476] (-) TimerEvent: {}
+[0.809928] (-) TimerEvent: {}
+[0.912253] (-) TimerEvent: {}
+[1.013650] (-) TimerEvent: {}
+[1.114759] (-) TimerEvent: {}
+[1.216204] (-) TimerEvent: {}
+[1.318022] (-) TimerEvent: {}
+[1.419852] (-) TimerEvent: {}
+[1.521511] (-) TimerEvent: {}
+[1.624469] (-) TimerEvent: {}
+[1.724956] (-) TimerEvent: {}
+[1.825321] (-) TimerEvent: {}
+[1.925687] (-) TimerEvent: {}
+[2.026048] (-) TimerEvent: {}
+[2.126468] (-) TimerEvent: {}
+[2.202962] (fibonacci_action_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fibonacci_action_py', 'build', '--build-base', '/home/sis/ros2t_ws/build/fibonacci_action_py/build', 'install', '--record', '/home/sis/ros2t_ws/build/fibonacci_action_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/sis/ros2t_ws/src/fibonacci_action_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sis', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sis/ros2t_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sis', 'OLDPWD': '/home/sis/ros2t_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '845', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sis/ros2t_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sis', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meister-agv-1:@/tmp/.ICE-unix/823,unix/meister-agv-1:/tmp/.ICE-unix/823', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26cf9361_0a50_40e5_acfe_dbcfaa3592cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6UPBF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.796', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sis/ros2t_ws/install/tutorial_interfaces:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/add_service_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sis/ros2t_ws/build/fibonacci_action_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sis/ros2t_ws/build/fibonacci_action_py/prefix_override:/home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/sis/ros2t_ws/install/pubsub_py/lib/python3.10/site-packages:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sis/ros2t_ws/install/tutorial_interfaces:/home/sis/ros2t_ws/install/pubsub_cpp:/home/sis/ros2t_ws/install/add_service_cpp'}, 'shell': False}
+[2.226619] (-) TimerEvent: {}
+[2.327226] (-) TimerEvent: {}
+[2.427645] (-) TimerEvent: {}
+[2.528072] (-) TimerEvent: {}
+[2.628910] (-) TimerEvent: {}
+[2.725750] (fibonacci_action_py) StdoutLine: {'line': b'running egg_info\n'}
+[2.727173] (fibonacci_action_py) StdoutLine: {'line': b'creating ../../build/fibonacci_action_py/fibonacci_action_py.egg-info\n'}
+[2.727668] (fibonacci_action_py) StdoutLine: {'line': b'writing ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/PKG-INFO\n'}
+[2.728147] (fibonacci_action_py) StdoutLine: {'line': b'writing dependency_links to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/dependency_links.txt\n'}
+[2.728486] (fibonacci_action_py) StdoutLine: {'line': b'writing entry points to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/entry_points.txt\n'}
+[2.728825] (fibonacci_action_py) StdoutLine: {'line': b'writing requirements to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/requires.txt\n'}
+[2.729040] (-) TimerEvent: {}
+[2.729344] (fibonacci_action_py) StdoutLine: {'line': b'writing top-level names to ../../build/fibonacci_action_py/fibonacci_action_py.egg-info/top_level.txt\n'}
+[2.729683] (fibonacci_action_py) StdoutLine: {'line': b"writing manifest file '../../build/fibonacci_action_py/fibonacci_action_py.egg-info/SOURCES.txt'\n"}
+[2.732224] (fibonacci_action_py) StdoutLine: {'line': b"reading manifest file '../../build/fibonacci_action_py/fibonacci_action_py.egg-info/SOURCES.txt'\n"}
+[2.733419] (fibonacci_action_py) StdoutLine: {'line': b"writing manifest file '../../build/fibonacci_action_py/fibonacci_action_py.egg-info/SOURCES.txt'\n"}
+[2.733811] (fibonacci_action_py) StdoutLine: {'line': b'running build\n'}
+[2.734097] (fibonacci_action_py) StdoutLine: {'line': b'running build_py\n'}
+[2.734472] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/build/fibonacci_action_py/build\n'}
+[2.734737] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib\n'}
+[2.734977] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py\n'}
+[2.735214] (fibonacci_action_py) StdoutLine: {'line': b'copying fibonacci_action_py/client.py -> /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py\n'}
+[2.735514] (fibonacci_action_py) StdoutLine: {'line': b'copying fibonacci_action_py/server.py -> /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py\n'}
+[2.735721] (fibonacci_action_py) StdoutLine: {'line': b'copying fibonacci_action_py/__init__.py -> /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py\n'}
+[2.735922] (fibonacci_action_py) StdoutLine: {'line': b'running install\n'}
+[2.736202] (fibonacci_action_py) StdoutLine: {'line': b'running install_lib\n'}
+[2.737716] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py\n'}
+[2.738230] (fibonacci_action_py) StdoutLine: {'line': b'copying /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py/client.py -> /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py\n'}
+[2.738594] (fibonacci_action_py) StdoutLine: {'line': b'copying /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py/server.py -> /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py\n'}
+[2.738796] (fibonacci_action_py) StdoutLine: {'line': b'copying /home/sis/ros2t_ws/build/fibonacci_action_py/build/lib/fibonacci_action_py/__init__.py -> /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py\n'}
+[2.739243] (fibonacci_action_py) StdoutLine: {'line': b'byte-compiling /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py/client.py to client.cpython-310.pyc\n'}
+[2.740275] (fibonacci_action_py) StdoutLine: {'line': b'byte-compiling /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py/server.py to server.cpython-310.pyc\n'}
+[2.741205] (fibonacci_action_py) StdoutLine: {'line': b'byte-compiling /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py/__init__.py to __init__.cpython-310.pyc\n'}
+[2.741521] (fibonacci_action_py) StdoutLine: {'line': b'running install_data\n'}
+[2.742415] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/install/fibonacci_action_py/share/ament_index\n'}
+[2.742713] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/install/fibonacci_action_py/share/ament_index/resource_index\n'}
+[2.743353] (fibonacci_action_py) StdoutLine: {'line': b'creating /home/sis/ros2t_ws/install/fibonacci_action_py/share/ament_index/resource_index/packages\n'}
+[2.744186] (fibonacci_action_py) StdoutLine: {'line': b'copying resource/fibonacci_action_py -> /home/sis/ros2t_ws/install/fibonacci_action_py/share/ament_index/resource_index/packages\n'}
+[2.744677] (fibonacci_action_py) StdoutLine: {'line': b'copying package.xml -> /home/sis/ros2t_ws/install/fibonacci_action_py/share/fibonacci_action_py\n'}
+[2.744924] (fibonacci_action_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.746845] (fibonacci_action_py) StdoutLine: {'line': b'Copying ../../build/fibonacci_action_py/fibonacci_action_py.egg-info to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/python3.10/site-packages/fibonacci_action_py-0.0.0-py3.10.egg-info\n'}
+[2.749056] (fibonacci_action_py) StdoutLine: {'line': b'running install_scripts\n'}
+[2.795233] (fibonacci_action_py) StdoutLine: {'line': b'Installing client script to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/fibonacci_action_py\n'}
+[2.795783] (fibonacci_action_py) StdoutLine: {'line': b'Installing server script to /home/sis/ros2t_ws/install/fibonacci_action_py/lib/fibonacci_action_py\n'}
+[2.796318] (fibonacci_action_py) StdoutLine: {'line': b"writing list of installed files to '/home/sis/ros2t_ws/build/fibonacci_action_py/install.log'\n"}
+[2.829213] (-) TimerEvent: {}
+[2.871463] (fibonacci_action_py) CommandEnded: {'returncode': 0}
+[2.929339] (-) TimerEvent: {}
+[2.986948] (fibonacci_action_py) JobEnded: {'identifier': 'fibonacci_action_py', 'rc': 0}
+[2.988118] (-) EventReactorShutdown: {}

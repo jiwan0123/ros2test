@@ -1,0 +1,26 @@
+[0.784s] Invoking command in '/home/sis/ros2t_ws/build/pubsub_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/pubsub_cpp -- -j4 -l4
+[0.851s] [35m[1mConsolidate compiler generated dependencies of target pub[0m
+[0.861s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.886s] [ 50%] Built target pub
+[0.904s] [100%] Built target sub
+[1.350s] Invoked command in '/home/sis/ros2t_ws/build/pubsub_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/pubsub_cpp -- -j4 -l4
+[1.413s] Invoking command in '/home/sis/ros2t_ws/build/pubsub_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/pubsub_cpp
+[1.424s] -- Install configuration: ""
+[1.424s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/lib/pubsub_cpp/pub
+[1.425s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/lib/pubsub_cpp/sub
+[1.426s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/package_run_dependencies/pubsub_cpp
+[1.426s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/parent_prefix_path/pubsub_cpp
+[1.426s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/ament_prefix_path.sh
+[1.427s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/ament_prefix_path.dsv
+[1.427s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/path.sh
+[1.427s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/environment/path.dsv
+[1.427s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.bash
+[1.428s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.sh
+[1.428s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.zsh
+[1.428s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/local_setup.dsv
+[1.428s] -- Installing: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/package.dsv
+[1.428s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/ament_index/resource_index/packages/pubsub_cpp
+[1.429s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/cmake/pubsub_cppConfig.cmake
+[1.429s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/cmake/pubsub_cppConfig-version.cmake
+[1.429s] -- Up-to-date: /home/sis/ros2t_ws/install/pubsub_cpp/share/pubsub_cpp/package.xml
+[1.441s] Invoked command in '/home/sis/ros2t_ws/build/pubsub_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/pubsub_cpp

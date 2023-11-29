@@ -1,0 +1,22 @@
+[6.419s] Invoking command in '/home/sis/ros2t_ws/src/add_service_py': PYTHONPATH=/home/sis/ros2t_ws/build/add_service_py/prefix_override:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_service_py build --build-base /home/sis/ros2t_ws/build/add_service_py/build install --record /home/sis/ros2t_ws/build/add_service_py/install.log --single-version-externally-managed
+[8.838s] running egg_info
+[8.841s] writing ../../build/add_service_py/add_service_py.egg-info/PKG-INFO
+[8.843s] writing dependency_links to ../../build/add_service_py/add_service_py.egg-info/dependency_links.txt
+[8.845s] writing entry points to ../../build/add_service_py/add_service_py.egg-info/entry_points.txt
+[8.847s] writing requirements to ../../build/add_service_py/add_service_py.egg-info/requires.txt
+[8.853s] writing top-level names to ../../build/add_service_py/add_service_py.egg-info/top_level.txt
+[8.874s] reading manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'
+[8.892s] writing manifest file '../../build/add_service_py/add_service_py.egg-info/SOURCES.txt'
+[8.899s] running build
+[8.901s] running build_py
+[8.903s] running install
+[8.905s] running install_lib
+[8.910s] running install_data
+[8.917s] running install_egg_info
+[8.938s] removing '/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py-0.0.0-py3.10.egg-info' (and everything under it)
+[8.942s] Copying ../../build/add_service_py/add_service_py.egg-info to /home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages/add_service_py-0.0.0-py3.10.egg-info
+[8.947s] running install_scripts
+[9.113s] Installing client script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py
+[9.116s] Installing server script to /home/sis/ros2t_ws/install/add_service_py/lib/add_service_py
+[9.116s] writing list of installed files to '/home/sis/ros2t_ws/build/add_service_py/install.log'
+[9.273s] Invoked command in '/home/sis/ros2t_ws/src/add_service_py' returned '0': PYTHONPATH=/home/sis/ros2t_ws/build/add_service_py/prefix_override:/home/sis/ros2t_ws/install/add_service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_service_py build --build-base /home/sis/ros2t_ws/build/add_service_py/build install --record /home/sis/ros2t_ws/build/add_service_py/install.log --single-version-externally-managed

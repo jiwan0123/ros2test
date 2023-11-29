@@ -1,0 +1,20 @@
+[ 50%] Built target client
+[100%] Built target server
+-- Install configuration: ""
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/package_run_dependencies/add_service_cpp
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/parent_prefix_path/add_service_cpp
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.sh
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.dsv
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.bash
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.sh
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.zsh
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.dsv
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.dsv
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/packages/add_service_cpp
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig.cmake
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig-version.cmake
+-- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.xml

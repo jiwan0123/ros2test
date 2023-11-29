@@ -1,0 +1,24 @@
+[0.368s] Invoking command in '/home/sis/ros2t_ws/build/add_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/fibonacci_action_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/add_service_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4
+[1.487s] [ 50%] Built target client
+[1.487s] [100%] Built target server
+[1.492s] Invoked command in '/home/sis/ros2t_ws/build/add_service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/fibonacci_action_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/add_service_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4
+[1.628s] Invoking command in '/home/sis/ros2t_ws/build/add_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/fibonacci_action_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/add_service_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/add_service_cpp
+[1.647s] -- Install configuration: ""
+[1.649s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server
+[1.650s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client
+[1.651s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/package_run_dependencies/add_service_cpp
+[1.652s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/parent_prefix_path/add_service_cpp
+[1.653s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.sh
+[1.653s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.dsv
+[1.653s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.sh
+[1.654s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.dsv
+[1.655s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.bash
+[1.656s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.sh
+[1.656s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.zsh
+[1.657s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.dsv
+[1.658s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.dsv
+[1.659s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/packages/add_service_cpp
+[1.660s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig.cmake
+[1.660s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig-version.cmake
+[1.661s] -- Up-to-date: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.xml
+[1.673s] Invoked command in '/home/sis/ros2t_ws/build/add_service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/fibonacci_action_py:/home/sis/ros2t_ws/install/pubsub_py:/home/sis/ros2t_ws/install/add_service_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/add_service_cpp

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server
+-- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server" to ""
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client
+-- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client" to ""
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/package_run_dependencies/add_service_cpp
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/parent_prefix_path/add_service_cpp
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.sh
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.dsv
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.bash
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.sh
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.zsh
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.dsv
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.dsv
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/packages/add_service_cpp
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig.cmake
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig-version.cmake
+-- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.xml

@@ -1,0 +1,29 @@
+[1.129s] Invoking command in '/home/sis/ros2t_ws/build/add_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4
+[4.408s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[4.409s] [ 50%] Built target server
+[4.409s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[16.477s] [100%] [32m[1mLinking CXX executable client[0m
+[17.070s] [100%] Built target client
+[17.087s] Invoked command in '/home/sis/ros2t_ws/build/add_service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --build /home/sis/ros2t_ws/build/add_service_cpp -- -j4 -l4
+[17.216s] Invoking command in '/home/sis/ros2t_ws/build/add_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/add_service_cpp
+[17.274s] -- Install configuration: ""
+[17.277s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server
+[17.282s] -- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/server" to ""
+[17.282s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client
+[17.285s] -- Set runtime path of "/home/sis/ros2t_ws/install/add_service_cpp/lib/add_service_cpp/client" to ""
+[17.286s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/package_run_dependencies/add_service_cpp
+[17.286s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/parent_prefix_path/add_service_cpp
+[17.287s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.sh
+[17.288s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/ament_prefix_path.dsv
+[17.289s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.sh
+[17.289s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/environment/path.dsv
+[17.290s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.bash
+[17.291s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.sh
+[17.292s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.zsh
+[17.292s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/local_setup.dsv
+[17.294s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.dsv
+[17.298s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/ament_index/resource_index/packages/add_service_cpp
+[17.302s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig.cmake
+[17.306s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/cmake/add_service_cppConfig-version.cmake
+[17.308s] -- Installing: /home/sis/ros2t_ws/install/add_service_cpp/share/add_service_cpp/package.xml
+[17.320s] Invoked command in '/home/sis/ros2t_ws/build/add_service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sis/ros2t_ws/install/add_service_py:/home/sis/ros2t_ws/install/pubsub_py:/opt/ros/humble /usr/bin/cmake --install /home/sis/ros2t_ws/build/add_service_cpp

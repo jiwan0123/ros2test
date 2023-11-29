@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/sis/ros2t_ws/src/pubsub_cpp",
+    "cmake.configureOnOpen": true
+}
